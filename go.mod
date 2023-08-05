@@ -1,9 +1,10 @@
-module github.com/wowchemy/hugo-minimal-theme
+module github.com/wowchemy/chbnet.github.io
 
-go 1.15
+go 1.20
 
 require (
-	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0 // indirect
-	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms v1.0.0 // indirect
-	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20221024214304-ad466232017f
+	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.1-0.20230730180222-1c094227ecea
+	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms v1.0.1-0.20230730180222-1c094227ecea
+	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal v0.0.0-20221029143146-ff4b7b1193fa
+	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.8.0
 )

@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  theme_day:
+  #theme_day: 
   theme_night: minimal
   font: native
   font_size: L
@@ -18,43 +18,43 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo minimal theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
-  verification:
-    google: ''
-    baidu: ''
+    description: "Website der Saxophonistin und Sängerin Christine Bauer."
+    #twitter: 'christine_bauer'
+
 
 # Site header
 
 header:
   navbar:
-    enable: false
+    enable: true
     align: r
-    show_logo: false
+    show_logo: true
+    show_translations: false
     show_language: false
-    show_day_night: true
+    show_day_night: false
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
+
+
+
+# Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+    notice: '© {year} Christine Bauer.'
+#    license:
+#      enable: true
+#      allow_derivatives: false
+#      share_alike: true
+#      allow_commercial: false
+
 
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '02 January 2006'
+  time_format: '15:04'
+  address_format: de
 
 # Site features
 
@@ -69,7 +69,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/chbeu/chbnet.github.io'
     content_dir: content
     branch: main
   avatar:
@@ -79,7 +79,7 @@ features:
     provider: ''
     disqus:
       shortname: ''
-      show_count: true
+      show_count: false
     commento:
       url: ''
     giscus:
@@ -88,7 +88,7 @@ features:
       category: ''
       category_id: ''
   search:
-    provider: ''
+    provider: wowchemy
     algolia:
       app_id: ''
       api_key: ''
@@ -99,9 +99,24 @@ features:
     api_key: ''
     zoom: 15
 
+# Extensions
 extensions:
   cms:
     branch: main
     local_backend: false
   academicons:
     enable: false
+
+
+# Security
+
+security:
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: false
+  csp:
+    policy: ''
+    report_only: false
+  permissions:
+    policy: >-
+      accelerometer=(), camera=(), geolocation=(), gyroscope=(),
+      magnetometer=(), microphone=(), payment=(), usb=()      
