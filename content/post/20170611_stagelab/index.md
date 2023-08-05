@@ -1,8 +1,7 @@
 ---
 title: "Ein großartiger Abend beim Stagelab Unplugged"
-tags: [website]
-categories: [news]
-date: 2017-06-11T20:54:09+01:00
+date: 2017-06-11
+summary: "Es war mir eine große Ehre, eigene Songs zu präsentieren."
 featured: false
 draft: false
 profile: false

@@ -4,32 +4,33 @@ title: ".: Christine Bauer :."
 date: 2023-08-04
 type: landing
 sections:
-  - block: about.avatar
+  - block: markdown
     id: about
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: christine-bauer
+      title: Christine Bauer
+      subtitle: Saxophone & Vocals
       text: |-
-        Christine Bauer ist eine Saxophonistin und Sängerin, die sich dem Rock und Pop-Genre verschrieben hat, um die Füße der Welt zum Tanzen zu bringen.<br><br>
-        Das musikalische Repertoire reicht von erdigem Rock, groovigem Funk, über rhythmisierenden Soul, bis hin zu gefühlvollem Blues.<br><br>
-        Während Covers in eigenen Arrangements zu einem neuen Gesamtpaket verschnürt werden, zeichnen sich die eigenen Songs durch eingängige Melodien und emotionsgeladene Texte aus.<br><br>
-        Gemeinsam mit der Würze der MitmusikerInnen wird eine musikalische Suppe gekocht, die so noch nicht gegessen wurde.<br><br>
-        Taste it – Like it – Shake it!
-        {style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #4698C3 0%, #EA4892 30%, #FFFFFF 60%, #000000 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
+        Christine Bauer ist eine Saxophonistin und Sängerin, die sich dem Rock und Pop-Genre verschrieben hat, um die Füße der Welt zum Tanzen zu bringen.<br>
+         {style="margin-left:150px; margin-top:90px; padding: 0 15px 0 15px; font-size: 1.1rem; color: #ffffff; background: linear-gradient(to right, rgba(0, 0, 0, .35) 0%, rgba(70, 152, 195, .35) 100%);"}
+        Das musikalische Repertoire reicht von erdigem Rock, groovigem Funk, über rhythmisierenden Soul, bis hin zu gefühlvollem Blues.<br>
+         {style="margin-left:150px; padding: 0 15px 0 15px; font-size: 1.1rem; color: #ffffff; background: linear-gradient(to right, rgba(0, 0, 0, .35) 0%, rgba(234, 72, 146, .3) 100%);"}
+        Während Covers in eigenen Arrangements zu einem neuen Gesamtpaket verschnürt werden, zeichnen sich die eigenen Songs durch eingängige Melodien und emotionsgeladene Texte aus.<br>
+         {style="margin-left:150px; padding: 0 15px 0 15px; font-size: 1.1rem; color: #ffffff; background: linear-gradient(to right, rgba(0, 0, 0, .35) 0%, rgba(70, 152, 195, .35) 100%);"}
+        Gemeinsam mit der Würze der Mitmusiker:innen wird eine musikalische Suppe gekocht, die so noch nicht gegessen wurde.<br>
+         {style="margin-left:150px; margin-bottom:60px; padding: 0 15px 0 15px; font-size: 1.1rem; color: #ffffff; background: linear-gradient(to right, rgba(0, 0, 0, .35) 0%, rgba(234, 72, 146, .3) 100%);"}
     design:
-      columns: '1'
+      columns: '2'
       background:
-        color: dark
+        color: light
         text_color_light: true
         image:
           # Add your image background to `assets/media/`.
-          filename: top/_MG_8848_cropped.jpg
+          filename: top/_MG_8755.jpg
           filters:
-            brightness: 0.7
+            brightness: 0.8
           fit: cover
           position: center
           parallax: false
-      css_class: d-flex fullscreen align-items-center
   - block: portfolio
     id: portfolio
     content:
@@ -40,8 +41,8 @@ sections:
     design:
       columns: '2'
       background:
-        color: dark
-        text_color_light: true
+        color: light
+        text_color_light: false
         view: showcase
         flip_alt_rows: false
   - block: portfolio
@@ -54,8 +55,8 @@ sections:
     design:
       columns: '2'
       background:
-        color: dark
-        text_color_light: true
+        color: light
+        text_color_light: false
         view: showcase
         flip_alt_rows: false
   - block: markdown
@@ -63,24 +64,29 @@ sections:
     content:
       title: Fotos
       text: |-
+            <br><br>
             {{< gallery album="gallery" >}}
     design:
       columns: '2'
       background:
-        color: dark
-        text_color_light: true
+        color: light
+        text_color_light: false
   - block: markdown
     id: media
     content:
       title: Media
       text: |-
             ## Zum Hören
-            Moments – Musik & Text: Manfred Leikermoser, Christine Bauer, Lukas Schistek, Christian Hierhold, Peter Roberts, Robin Sars<br><br>
-            Alright – Musik & Text: Christine Bauer, Christian Hierhold, Peter Roberts<br><br>
+            {style="color: #000000;"}
+            Moments---Musik & Text: Manfred Leikermoser, Christine Bauer, Lukas Schistek, Christian Hierhold, Peter Roberts, Robin Sars
+            {{< audio src="audio/09_Moments.mp3" >}}
+            Alright---Musik & Text: Christine Bauer, Christian Hierhold, Peter Roberts<br><br>
+            {{< audio src="audio/08_Alright.mp3" >}}
              ## Zum Hören und Sehen
+            {style="color: #000000;"}
             {{< youtube uBIwxdkX490 >}}
             {{< youtube TgKjNew3liE >}}
-            {{< video src="videos/popak_klangketten_klar_20170607.mp4" controls="yes" >}}
+            {{< video src="videos/popak_klangketten_klar_20170607.mp4" controls="yes" poster="videos/popak_klar_still.jpeg" >}}
             {{< youtube ssgdea0ejto >}}
             {{< youtube jKaRr846It4 >}}
             {{< youtube 4oXq0DBa62Q >}}
@@ -88,8 +94,8 @@ sections:
     design:
       columns: '2'
       background:
-        color: dark
-        text_color_light: true
+        color: light
+        text_color_light: false
   - block: markdown
     id: bio
     content:
@@ -98,6 +104,7 @@ sections:
             Mit vier kam die Blockflöte und dann war Christine nicht mehr zu stoppen.<br><br>
             Nach einigen Jahren Unterricht am Akkordeon wechselte Christine mit zwölf ans Saxophon, um sich davon nicht mehr losreißen zu können. Zwei Jahre Studium des Jazz-Saxophon am Konservatorium der Stadt Wien bei Thomas Huber. Seminare und Workshops ua. bei Ilse Riedler, Martin Fuss, Michael Erian, Robert Friedl, Andy Middleton, Roman Schwaller,…<br><br>
             Diverse Stile des Populargesangs ua. bei Karin Maria Bauer, Ingrid Diem, Nina Braith und Mel Verez. Unterricht im klassischen Gesang bei Anita Götz. Sprechtraining ua. bei Lydia Rathkolb, Karin Steger und Martha Wedral.<br><br>
+            Klavier bei Iva Zabkar, Julia Radschiner und Rudi Wilfer.<br><br>
             Ensemble- und Band-Workshops ua. bei Rens Newland, Christoph Cech, Johannes Herrlich, Daniel Nösig, Christian Havel, Rob Bargad, Agostino Di Giorgio, Mario Gonzi, Georg Gruber, Christian Maurer,…
     design:
       columns: '2'
@@ -106,7 +113,7 @@ sections:
         text_color_light: true
         image:
           # Add your image background to `assets/media/`.
-          filename: top/8755-1-2000x1500.jpg
+          filename: top/_MG_9094.jpg
           filters:
             brightness: 0.7
           fit: cover
@@ -128,9 +135,9 @@ sections:
         text_color_light: true
         image:
           # Add your image background to `assets/media/`.
-          filename: top/_MG_9094.JPG
+          filename: top/chb_voc-min.JPG
           filters:
-            brightness: 0.7
+            brightness: 0.6
           fit: cover
           position: center
           parallax: false
@@ -139,7 +146,7 @@ sections:
     content:
       title: News
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      count: 3
       # Filter on criteria
       filters:
         # The folders to display content from
@@ -156,8 +163,11 @@ sections:
       sort_by: 'Date'
       sort_ascending: false
     design:
+      background:
+        color: light
+        text_color_light: false
       # Choose a listing view
-      view: showcase
+      view: compact
       # Choose single or dual column layout
       columns: '2'
   - block: contact
@@ -165,7 +175,11 @@ sections:
     content:
       title: Kontakt
       subtitle: ''
-      text: ''
+      text: |-
+        **Sie planen einen Event?**<br><br>
+        Buchungsanfragen, Anregungen, Kritiken etc.---
+        Melden Sie sich einfach <br>per E-mail.
+         {style="margin-right:530px; padding: 15px 15px 15px 15px; color: #ffffff; background: linear-gradient(to right, rgba(0, 0, 0, .35) 0%, rgba(70, 152, 195, .35) 100%);"}
       # Contact details - edit or remove options as needed
       email: info@christinebauer.net
       address:
@@ -178,11 +192,11 @@ sections:
     design:
       columns: '2'
       background:
-        color: dark
+        color: light
         text_color_light: true
         image:
           # Add your image background to `assets/media/`.
-          filename: top/20170823_11.JPG
+          filename: top/050_christine-bauer_fuer-liwest_by_kurt-hoerbst.jpg
           filters:
             brightness: 0.7
           fit: cover

@@ -1,6 +1,7 @@
 ---
-title: "8. Juni 2017 Stagelab unplugged"
-date: 2017-06-01T20:54:09+01:00
+title: "8. Juni 2017 Stagelab Unplugged"
+date: 2017-06-01
+summary: "Am Donnerstag, den 8. Juni 2017 präsentieren meine Workshop-KollegInnen Daniel Alves, Rita Grushanina, Claudia Gradinger und ich unsere selbstgewählten Songs im Café Carina in Wien."
 featured: false
 draft: false
 profile: false

@@ -1,6 +1,6 @@
 ---
 title: "Vocals & Band"
-#summary: ""
+summary: "Stilrichtungen Pop, Rock und Blues"
 date: 2023-08-04
 
 reading_time: false  # Show estimated reading time?

@@ -1,0 +1,23 @@
+# Theme metadata
+name = "Chbnet"
+
+[light]
+  # Primary
+  primary = "#4698C3"
+
+  # Menu
+  menu_primary = "#fff"
+  menu_text = "#000000"
+  menu_text_active = "rgba(70, 152, 195, 1)"
+  menu_title = "#fff"
+
+
+ # Links
+  link = "#4698C3"
+  link_hover = "#EA4892"
+  link_decoration = "underline"
+
+  # Home sections
+  background = "#fff"
+  home_section_odd = "rgba(234, 72, 146, 1)"
+  home_section_even = "rgba(70, 152, 195, 1)"

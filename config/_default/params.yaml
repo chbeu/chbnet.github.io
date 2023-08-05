@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  #theme_day: 
-  theme_night: minimal
+  theme_day: chbnet
+  #theme_night: chbnet
   font: native
   font_size: L
 

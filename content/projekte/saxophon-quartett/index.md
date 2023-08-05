@@ -1,6 +1,6 @@
 ---
 title: "Saxophon Quartett"
-#summary: ""
+summary: "Von Jazzstandards über Film- und TV-Show-Themen über Computerspielthemen decken wir ein vielseitiges Repertoire ab."
 date: 2023-08-04
 
 reading_time: false  # Show estimated reading time?
