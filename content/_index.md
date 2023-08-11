@@ -12,7 +12,7 @@ sections:
       text: |-
         Christine Bauer ist eine Saxophonistin und Sängerin, die sich dem Rock und Pop-Genre verschrieben hat, um die Füße der Welt zum Tanzen zu bringen.<br>
          {style="margin-left:150px; margin-top:90px; padding: 0 15px 0 15px; font-size: 1.1rem; color: #ffffff; background: linear-gradient(to right, rgba(0, 0, 0, .35) 0%, rgba(70, 152, 195, .35) 100%);"}
-        Das musikalische Repertoire reicht von erdigem Rock, groovigem Funk, über rhythmisierenden Soul, bis hin zu gefühlvollem Blues.<br>
+        Das musikalische Repertoire reicht von erdigem Rock, groovigem Funk, über rhythmisierenden Soul bis hin zu gefühlvollem Blues.<br>
          {style="margin-left:150px; padding: 0 15px 0 15px; font-size: 1.1rem; color: #ffffff; background: linear-gradient(to right, rgba(0, 0, 0, .35) 0%, rgba(234, 72, 146, .3) 100%);"}
         Während Covers in eigenen Arrangements zu einem neuen Gesamtpaket verschnürt werden, zeichnen sich die eigenen Songs durch eingängige Melodien und emotionsgeladene Texte aus.<br>
          {style="margin-left:150px; padding: 0 15px 0 15px; font-size: 1.1rem; color: #ffffff; background: linear-gradient(to right, rgba(0, 0, 0, .35) 0%, rgba(70, 152, 195, .35) 100%);"}
@@ -25,7 +25,7 @@ sections:
         text_color_light: true
         image:
           # Add your image background to `assets/media/`.
-          filename: top/_MG_8755.jpg
+          filename: top/8755.jpeg
           filters:
             brightness: 0.8
           fit: cover
@@ -84,13 +84,14 @@ sections:
             {{< audio src="audio/08_Alright.mp3" >}}
              ## Zum Hören und Sehen
             {style="color: #000000;"}
+            {{< youtube PtceQY21GgM >}}
             {{< youtube uBIwxdkX490 >}}
+            {{< youtube zQ_-mo2gArQ >}}
+            {{< youtube ssgdea0ejto >}}
             {{< youtube TgKjNew3liE >}}
             {{< video src="videos/popak_klangketten_klar_20170607.mp4" controls="yes" poster="videos/popak_klar_still.jpeg" >}}
-            {{< youtube ssgdea0ejto >}}
             {{< youtube jKaRr846It4 >}}
             {{< youtube 4oXq0DBa62Q >}}
-            {{< youtube PtceQY21GgM >}}
     design:
       columns: '2'
       background:
@@ -102,10 +103,10 @@ sections:
       title: Bio
       text: |-
             Mit vier kam die Blockflöte und dann war Christine nicht mehr zu stoppen.<br><br>
-            Nach einigen Jahren Unterricht am Akkordeon wechselte Christine mit zwölf ans Saxophon, um sich davon nicht mehr losreißen zu können. Zwei Jahre Studium des Jazz-Saxophon am Konservatorium der Stadt Wien bei Thomas Huber. Seminare und Workshops ua. bei Ilse Riedler, Martin Fuss, Michael Erian, Robert Friedl, Andy Middleton, Roman Schwaller,…<br><br>
+            Nach fünf Jahren Unterricht am Akkordeon wechselte Christine mit zwölf ans Saxophon, um sich davon nicht mehr losreißen zu können. Zwei Jahre Studium des Jazz-Saxophon am Konservatorium der Stadt Wien bei Thomas Huber. Seminare und Workshops ua. bei Ilse Riedler, Martin Fuss, Michael Erian, Robert Friedl, Andy Middleton, Roman Schwaller,…<br><br>
             Diverse Stile des Populargesangs ua. bei Karin Maria Bauer, Ingrid Diem, Nina Braith und Mel Verez. Unterricht im klassischen Gesang bei Anita Götz. Sprechtraining ua. bei Lydia Rathkolb, Karin Steger und Martha Wedral.<br><br>
             Klavier bei Iva Zabkar, Julia Radschiner und Rudi Wilfer.<br><br>
-            Ensemble- und Band-Workshops ua. bei Rens Newland, Christoph Cech, Johannes Herrlich, Daniel Nösig, Christian Havel, Rob Bargad, Agostino Di Giorgio, Mario Gonzi, Georg Gruber, Christian Maurer,…
+            Ensemble- und Band-Workshops ua. bei Rens Newland, Christoph Cech, Johannes Herrlich, Daniel Nösig, Christian Havel, Rob Bargad, Agostino Di Giorgio, Mario Gonzi, Thomas Huber, Georg Gruber, Christian Maurer,…
     design:
       columns: '2'
       background:
@@ -113,7 +114,7 @@ sections:
         text_color_light: true
         image:
           # Add your image background to `assets/media/`.
-          filename: top/_MG_9094.jpg
+          filename: top/_MG_9094.jpeg
           filters:
             brightness: 0.7
           fit: cover
@@ -135,7 +136,7 @@ sections:
         text_color_light: true
         image:
           # Add your image background to `assets/media/`.
-          filename: top/chb_voc-min.JPG
+          filename: top/chb_voc-min.jpg
           filters:
             brightness: 0.6
           fit: cover
@@ -171,7 +172,7 @@ sections:
       # Choose single or dual column layout
       columns: '2'
   - block: contact
-    id: contact
+    id: kontakt
     content:
       title: Kontakt
       subtitle: ''
@@ -185,7 +186,7 @@ sections:
       address:
         #street: 
         city: Wien
-        #postcode: ''
+        #postcode: '1120'
         country: Austria
       # Automatically link email and phone or display them just as text?
       autolink: false
@@ -203,4 +204,3 @@ sections:
           position: center
           parallax: false
 ---
-
