@@ -1,5 +1,5 @@
 ---
-title: "Bigband Utrecht---wir haben gewonnen!"
+title: "Bigband Utrecht—wir haben gewonnen!"
 date: 2021-11-28
 summary: "Bigband Utrecht gewinnt in der Kategorie 'Eerste Klasse' beim IBBC 2021 in Hoofddorp, Niederlande."
 featured: false
@@ -21,4 +21,4 @@ image:
 projects: []
 ---
 
-Mit der [Bigband Utrecht](http://bigbandutrecht.nl)---unter der Leitung von [Martien de Kam](https://dekoperstudio.nl/)---haben wir der International Big Band Competition (IBBC) 2021 im Rahmen von MEER JAZZ (in Hoofddorp, Niederlande)) teilgenommen. In der Kategorie "Eerste Klasse" den ersten Platz erlangt. Wir sind sehr stolz!
+Mit der [Bigband Utrecht](http://bigbandutrecht.nl)---unter der Leitung von [Martien de Kam](https://dekoperstudio.nl/)---haben wir der International Big Band Competition (IBBC) 2021 im Rahmen von MEER JAZZ (in Hoofddorp, Niederlande)) teilgenommen. In der Kategorie "Eerste Klasse" (="First Class") den ersten Platz erlangt. Wir sind sehr stolz!

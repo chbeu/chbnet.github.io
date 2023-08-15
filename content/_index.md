@@ -67,7 +67,7 @@ sections:
             <br><br>
             {{< gallery album="gallery" >}}
     design:
-      columns: '2'
+      columns: '1'
       background:
         color: light
         text_color_light: false
@@ -80,7 +80,7 @@ sections:
             {style="color: #000000;"}
             Moments---Musik & Text: Manfred Leikermoser, Christine Bauer, Lukas Schistek, Christian Hierhold, Peter Roberts, Robin Sars
             {{< audio src="audio/09_Moments.mp3" >}}
-            Alright---Musik & Text: Christine Bauer, Christian Hierhold, Peter Roberts<br><br>
+            Alright---Musik & Text: Christine Bauer, Christian Hierhold, Peter Roberts
             {{< audio src="audio/08_Alright.mp3" >}}
              ## Zum Hören und Sehen
             {style="color: #000000;"}
