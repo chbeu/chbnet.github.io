@@ -10,7 +10,7 @@ sections:
       title: Christine Bauer
       subtitle: Saxophone & Vocals
       text: |-
-        Christine Bauer ist eine Saxophonistin und Sängerin, die sich dem Rock und Pop-Genre verschrieben hat, um die Füße der Welt zum Tanzen zu bringen.<br>
+        Christine Bauer ist eine Saxophonistin und Sängerin, die sich dem Rock und Pop-Genre verschrieben hat, um die Füße der Welt zum Tanzen zu bringen. <br>
          {style="margin-left:150px; margin-top:90px; padding: 0 15px 0 15px; font-size: 1.1rem; color: #ffffff; background: linear-gradient(to right, rgba(0, 0, 0, .35) 0%, rgba(70, 152, 195, .35) 100%);"}
         Das musikalische Repertoire reicht von erdigem Rock, groovigem Funk, über rhythmisierenden Soul bis hin zu gefühlvollem Blues.<br>
          {style="margin-left:150px; padding: 0 15px 0 15px; font-size: 1.1rem; color: #ffffff; background: linear-gradient(to right, rgba(0, 0, 0, .35) 0%, rgba(234, 72, 146, .3) 100%);"}
