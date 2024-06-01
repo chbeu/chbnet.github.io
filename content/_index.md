@@ -142,7 +142,7 @@ sections:
           fit: cover
           position: center
           parallax: false
-  - block: collection
+  - block: portfolio
     id: posts
     content:
       title: News

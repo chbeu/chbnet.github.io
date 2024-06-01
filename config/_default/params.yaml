@@ -61,6 +61,8 @@ locale:
 features:
   syntax_highlighter:
     enable: false
+    theme_light: github-light
+    theme_dark: dracula
     extra_languages:
       - r
       - latex
