@@ -185,8 +185,8 @@ sections:
       email: info@christinebauer.net
       address:
         #street: 
-        city: Wien
-        #postcode: '1120'
+        city: Wien | Salzburg
+        #postcode: ''
         country: Austria
       # Automatically link email and phone or display them just as text?
       autolink: false
