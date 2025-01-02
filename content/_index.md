@@ -152,7 +152,7 @@ sections:
       filters:
         # The folders to display content from
         folders:
-          - post
+          - posts
         featured_only: false
         exclude_featured: false
         exclude_future: false

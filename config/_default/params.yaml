@@ -1,7 +1,8 @@
 # SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
 
 # Appearance
 
@@ -19,7 +20,6 @@ marketing:
     local_business_type: ''
     org_name: ''
     description: "Website der Saxophonistin und Sängerin Christine Bauer."
-    #twitter: 'christine_bauer'
 
 
 # Site header
@@ -63,13 +63,10 @@ features:
     enable: false
     theme_light: github-light
     theme_dark: dracula
-    extra_languages:
-      - r
-      - latex
   math:
     enable: false
   privacy_pack:
-    enable: false
+    enable: true
   repository:
     url: 'https://github.com/chbeu/chbnet.github.io'
     content_dir: content
@@ -101,14 +98,6 @@ features:
     api_key: ''
     zoom: 15
 
-# Extensions
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
-    enable: false
-
 
 # Security
 
@@ -118,7 +107,13 @@ security:
   csp:
     policy: ''
     report_only: false
-  permissions:
-    policy: >-
-      accelerometer=(), camera=(), geolocation=(), gyroscope=(),
-      magnetometer=(), microphone=(), payment=(), usb=()      
+
+copyright_license:
+  enable: false
+  allow_derivatives: false
+  share_alike: false
+  allow_commercial: false
+  notice: '© {year}. This work is licensed under {license}' 
+cms:
+  branch: master
+  local_backend: false
