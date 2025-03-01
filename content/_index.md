@@ -128,7 +128,7 @@ sections:
             ## Formationen
             ua. Bigband Utrecht, Waves on Fire, Amanda Palmer and the Grand Theft Orchestra, SaxSuperheroes, My Little Blues Band, The New Live Collective, Sonic 99, Big Bang Big Band, Fritz Hujer’s Jazz La Vie, Jazz Connection 22, Blankoscheck, Undercover Big Band Vösendorf, Kirchenchor Neusimmering, Alpha Jazz Band feat. Victoria Quattlebaum, Alpha Dance Band, Vienna Big One Band, Mindless, Musicians Society Jazz Band, Musicians Society Wind Band, Juvina Sextett, Jugendmusik Lackenbach.<br><br>
             ## Internationale Auftritte
-            ua. in Brasilien, China, Deutschland, Frankreich, Großbritannien, Italien, Niederlande, Österreich, Schweden, Ungarn, USA.
+            ua. in Brasilien, China, Deutschland, Frankreich, Großbritannien, Italien, Niederlande, Österreich, Schweden, Tschechien, Ungarn, USA.
     design:
       columns: '2'
       background:
