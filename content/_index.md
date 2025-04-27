@@ -106,7 +106,7 @@ sections:
             Nach fünf Jahren Unterricht am Akkordeon wechselte Christine mit zwölf ans Saxophon, um sich davon nicht mehr losreißen zu können. Zwei Jahre Studium des Jazz-Saxophon am Konservatorium der Stadt Wien bei Thomas Huber. Seminare und Workshops ua. bei Ilse Riedler, Martin Fuss, Michael Erian, Robert Friedl, Andy Middleton, Roman Schwaller,…<br><br>
             Diverse Stile des Populargesangs ua. bei Karin Maria Bauer, Ingrid Diem, Nina Braith und Mel Verez. Unterricht im klassischen Gesang bei Anita Götz. Sprechtraining ua. bei Lydia Rathkolb, Karin Steger und Martha Wedral.<br><br>
             Klavier bei Iva Zabkar, Julia Radschiner und Rudi Wilfer.<br><br>
-            Ensemble- und Band-Workshops ua. bei Rens Newland, Christoph Cech, Johannes Herrlich, Daniel Nösig, Christian Havel, Rob Bargad, Agostino Di Giorgio, Mario Gonzi, Thomas Huber, Georg Gruber, Christian Maurer,…
+            Ensemble- und Band-Workshops ua. bei Rens Newland, Christoph Cech, Johannes Herrlich, Daniel Nösig, Christian Havel, Rob Bargad, Agostino Di Giorgio, Mario Gonzi, Thomas Huber, Georg Gruber, Christian Maurer, Josef Burchartz, Agnes Heginger…
     design:
       columns: '2'
       background:
